@@ -1,10 +1,10 @@
 # FilmFan
 
 ## AUTHOR(S)
-[Abby Sarah](https://github.com/mendarr)
-[Brandon Dando](https://github.com/djBrandy)
-[Dennis Eddison](https://github.com/Partycrusher546)
-[Joseph Rubia](https://github.com/jrubiaaaa)
+1. [Abby Sarah](https://github.com/mendarr)
+2. [Brandon Dando](https://github.com/djBrandy)
+3. [Dennis Eddison](https://github.com/Partycrusher546)
+4. [Joseph Rubia](https://github.com/jrubiaaaa)
 
 ## DESCRIPTION
 FilmFan is a user-friendly react application that allows users to revilutionize the way they manage their own movie collections by allowing customisation and seamless Integration.
