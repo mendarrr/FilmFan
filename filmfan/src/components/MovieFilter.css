@@ -1,0 +1,29 @@
+.movie-filter {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #389994;
+    color: black;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+    width: 700px;
+    margin-top: 20px;
+  }
+  
+  .movie-filter label {
+    font-weight: 600;
+  }
+  
+  .movie-filter select {
+    margin: 0 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .movie-filter select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }

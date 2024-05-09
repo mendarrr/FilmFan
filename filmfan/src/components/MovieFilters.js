@@ -1,9 +1,11 @@
 import React from "react";
+import "./MovieFilter.css";
 
 const MovieFilters = ({ handleFilter, handleSort }) => {
   return (
-    <div className="row mt-4 mb-4">
-      <div className="col">
+   
+      <div className="movie-filter">
+        <h3>Toolbox</h3>
         <label className="mr-2">Filter by Year:</label>
         <select
           className="form-control mr-4"
@@ -35,7 +37,7 @@ const MovieFilters = ({ handleFilter, handleSort }) => {
           {/* Add more sorting options as needed */}
         </select>
       </div>
-    </div>
+
   );
 };
 
