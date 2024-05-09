@@ -87,6 +87,15 @@ body {
 	display: flex;
 	flex-direction: row-reverse; 
   }
+
+  .head-container{
+	display: flex;
+	flex-direction: row;
+  }
+
+  .search-box{
+	margin-left: 70%;
+  }
   
 
 

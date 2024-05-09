@@ -127,26 +127,32 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={
-            <div className="container-fluid movie-app">
-              <div className="row d-flex align-items-center mt-4 mb-4">
-                <MovieListHeading heading="Movies" />
-                <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
-              </div>
+            <div className="main-container">
+             <div className="head-container">
+              <div className="tools">
               <MovieFilters handleFilter={filterMovies} handleSort={sortMovies} />
+              </div>
+              <div className="search-box">
+               <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
+              </div>
+             </div>
+              <div className="movies">
+              <MovieListHeading heading="Movies" />
               <MovieList
                 movies={moviesList}
                 handleFavouritesClick={addFavouriteMovie}
                 favouriteComponent={AddFavourite}
               />
-              <div className="row d-flex align-items-center mt-4 mb-4">
-                <MovieListHeading heading="Series" />
               </div>
-              <div className="row">
+              <div className="series">
+                <MovieListHeading heading="Series" />
+                <div className="row">
                 <MovieList
                   movies={seriesList}
                   handleFavouritesClick={addFavouriteMovie}
                   favouriteComponent={AddFavourite}
                 />
+              </div>
               </div>
             </div>
           } />
