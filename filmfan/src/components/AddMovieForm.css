@@ -1,0 +1,36 @@
+
+.submit-form{
+    width: 500px;
+    background: rgb(131, 177, 177);
+    border: 2px solid black;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    height: 450px;
+    margin-left: 650px;
+    margin-top: 180px;
+    height: 500px;
+}
+
+form h1{
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-add{
+    margin-top: 25px;
+    margin-left: 140px;
+    width: 200px;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 25px;
+    background: rgb(44, 239, 229);
+    transform: scale(1.05);
+}
+
+.btn-add:hover{
+    background: lightseagreen;
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import "./SearchBox.css";
+import { Link } from "react-router-dom";
 
 const SearchBox = (props) => {
   return (
@@ -8,7 +10,13 @@ const SearchBox = (props) => {
         value={props.value}
         onChange={(event) => props.setSearchValue(event.target.value)}
         placeholder="Type to search....."
-      ></input>
+      />
+      <Link to={"/add-movie"} className="btn btn-primary">
+        Add a Movie
+      </Link>
+      <Link to={"/favourites"} className="btn btn-primary">
+        Favourites
+      </Link>
     </div>
   );
 };
