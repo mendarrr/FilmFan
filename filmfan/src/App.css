@@ -84,7 +84,4 @@ body {
   }
   
 
-  .favourites-container {
-	display: flex;
-	flex-direction: row-reverse; /* Reverse the order of items */
-  }
+
