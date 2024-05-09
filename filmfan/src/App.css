@@ -88,7 +88,7 @@ body {
 	flex-direction: row-reverse; 
   }
 
-  .head-container{
+  .top-container{
 	display: flex;
 	flex-direction: row;
   }

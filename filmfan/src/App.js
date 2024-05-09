@@ -128,7 +128,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <div className="main-container">
-             <div className="head-container">
+             <div className="top-container">
               <div className="tools">
               <MovieFilters handleFilter={filterMovies} handleSort={sortMovies} />
               </div>
