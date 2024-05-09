@@ -82,6 +82,11 @@ body {
   .pagination .active {
 	background: grey;
   }
+
+ .favourites-container {
+	display: flex;
+	flex-direction: row-reverse; 
+  }
   
 
 
