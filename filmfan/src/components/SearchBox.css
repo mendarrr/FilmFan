@@ -17,7 +17,17 @@
     transform: scale(1.05);
 }
 
+input::placeholder{
+    width: 320px;
+}
+
 .form-control{
     height: 5vh;
     font-size: 20px;
+}
+
+.search-input{
+    width: 490px;
+    margin-top: 10px;
+    font-size: 25px;
 }
