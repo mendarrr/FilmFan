@@ -6,7 +6,7 @@ import MovieListHeading from "./components/MovieListHeading";
 import SearchBox from "./components/SearchBox";
 import AddFavourites from "./components/AddFavorite";
 import RemoveFavourites from "./components/RemoveFavourites";
-import db from "./db.json"; // Importing db.json
+import db from "./db.json"; 
 
 const App = () => {
   const [movies, setMovies] = useState([]);
