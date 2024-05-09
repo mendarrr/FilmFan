@@ -18,5 +18,5 @@ const MovieList = (props) => {
     </>
   );
 };
-
+<div id="ratingControl"></div>
 export default MovieList;
