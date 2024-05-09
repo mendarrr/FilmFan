@@ -1,0 +1,23 @@
+.btn{
+    margin-top: 23px;
+    margin-left: 150px;
+    color: black;
+    width: 200px;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 25px;
+    background: rgb(44, 239, 229);
+    transition: 0.5 ease-in-out; 
+    font-weight: 600; 
+    font-family: cursive; 
+}
+
+.btn:hover{
+    background: lightseagreen;
+    transform: scale(1.05);
+}
+
+.form-control{
+    height: 5vh;
+    font-size: 20px;
+}
