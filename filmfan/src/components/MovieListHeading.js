@@ -1,5 +1,4 @@
 import React from "react";
-impoort "./MovieListHeading.css"
 
 const MovieListHeading = (props) => {
   return (
