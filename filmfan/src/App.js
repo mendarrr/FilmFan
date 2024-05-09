@@ -7,7 +7,7 @@ import SearchBox from "./components/SearchBox";
 import AddFavourite from "./components/AddFavorite"; // Corrected import statement
 import RemoveFavourites from "./components/RemoveFavourites";
 import MovieFilters from "./components/MovieFilters";
-import AddMovieForm from "./components/ AddMovieForm";
+import AddMovieForm from "./components/AddMovieForm";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
@@ -130,7 +130,6 @@ const App = () => {
       </div>
       <MovieFilters handleFilter={filterMovies} handleSort={sortMovies} />
       <AddMovieForm onAddMovie={addMovie} />{" "}
-      {/* Add the AddMovieForm component */}
       <div className="row">
         <MovieList
           movies={moviesList}
