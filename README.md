@@ -10,7 +10,7 @@
 FilmFan is a user-friendly react application that allows users to revilutionize the way they manage their own movie collections by allowing customisation and seamless Integration.
 
 ## LIVE SITE
-
+https://663ddb47cc02efd15c92cfc0--luminous-liger-089b92.netlify.app/
 
 ## TECHNOLOGIES
 1. React
